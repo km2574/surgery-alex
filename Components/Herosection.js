@@ -11,9 +11,9 @@ const Herosection = () => {
             <Container >
                 <Row className="mb-5 mt-5 pt-5" >
                     <Col lg={6} sm={12} md={6} className="my-auto center" md>
-                        <p className="fs-2 fw-bold">Compare price & hospitals for <br /> Baby-delivery</p>
+                        <p className="fs-2 fw-bold">Compare prices & hospitals for any surgery and treatment</p>
                         <p className="fs-5">
-                            With Alex Health you can Compare price & quality of hospitals, Get an estimated bill for all complications, Know what’s covered in your insurance, Get final amount you pay
+                        With Alex Health you can Compare prices & quality of hospitals, Get an estimated bill for all surgery and treatment, Know what’s covered in your insurance, Get final amount you pay
                         </p>
                         <br />
                         <Button onClick={() => setModalShow(true)} size="lg" className="freecall border-0">
@@ -26,8 +26,8 @@ const Herosection = () => {
                     <Col lg={6} sm={12} md={6} className="mb-1 center" md>
                         <Image
                             src="/herosection.png"
-                            width={400}
-                            height={400}
+                            width={600}
+                            height={500}
                             layout="intrinsic"
                             alt="herosection"
                             className=" mx-auto my-auto"
