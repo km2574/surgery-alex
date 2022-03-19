@@ -7,7 +7,7 @@ import CustomModal from "./CustomModal";
 const Herosection = () => {
     const [modalShow, setModalShow] = useState(false);
     return (
-        <div className="mt-5 mb-5 flex flex-column containerhero">
+        <div className="mt-5 mb-5 pt-3 flex flex-column containerhero">
             <Container >
                 <Row className="mb-5 mt-5 pt-5" >
                     <Col lg={6} sm={12} md={6} className="my-auto center" md>
@@ -25,12 +25,12 @@ const Herosection = () => {
                     </Col>
                     <Col lg={6} sm={12} md={6} className="mb-1 center" md>
                         <Image
-                            src="/herosection.png"
-                            width={600}
-                            height={500}
+                            src="/herosection.jpeg"
+                            width={750}
+                            height={510}
                             layout="intrinsic"
                             alt="herosection"
-                            className=" mx-auto my-auto"
+                            className=" mx-auto my-auto image-blurred-edge"
                         />
 
                     </Col>

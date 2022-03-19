@@ -23,7 +23,9 @@ a {
   background-color: #0d6efd;
 } */
 
-
+.navcolor{
+  background-color: #ccecf4 !important;
+}
 .center {
   margin: auto;
   text-align: center; 
@@ -45,7 +47,8 @@ a {
 
 } */
 .feature{
-  background-color: rgb(245,246,247);
+  /* background-color: rgb(245,246,247); */
+  background-color: #ccecf4;
 }
 
 .introalexbg1{
@@ -66,4 +69,9 @@ a {
 .introaleximg{
   margin: auto !important;
   display: block !important;
+}
+
+
+.image-blurred-edge{
+    box-shadow: 0 0 8px 8px white inset !important;
 }

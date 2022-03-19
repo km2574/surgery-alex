@@ -4,7 +4,7 @@ import Image from "next/image"
 const nav = () => {
     return (
         <div >
-            <Navbar className="shadow-lg " fixed="top" expand="lg" bg="light" variant="dark">
+            <Navbar className="shadow-lg" fixed="top" expand="lg" bg="light" variant="dark">
                 <Container>
                     <Navbar.Brand className="fs-4" href="#home">
                         <Link href="/" passHref={true}>
