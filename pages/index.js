@@ -6,7 +6,7 @@ import Herosection from '../Components/Herosection'
 import Feature from '../Components/Feature'
 import Cta from '../Components/Cta'
 import IntroAlex from '../Components/IntroAlex'
-import Surgeries from '../Components/surgeries'
+import Surgeries from '../Components/Surgeries'
 export default function Home() {
   return (
     <div>

@@ -27,7 +27,7 @@ const CustomModal = (props) => {
                 <Modal.Body >
                     <form method="post" action="https://api.testself.com/contact">
                         <div className="form-group ">
-                            <label>Patient's Full Name</label>
+                            <label>Patient&apos;s Full Name</label>
                             <input type="text" className="form-control" id="fullname" />
                         </div>
                         <div className="form-group mt-3">

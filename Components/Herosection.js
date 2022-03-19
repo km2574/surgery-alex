@@ -10,7 +10,7 @@ const Herosection = () => {
         <div className="mt-5 mb-5 pt-3 flex flex-column containerhero">
             <Container >
                 <Row className="mb-5 mt-5 pt-5" >
-                    <Col lg={6} sm={12} md={6} className="my-auto center" md>
+                    <Col lg={6} sm={12} md={6} className="my-auto center">
                         <p className="fs-2 fw-bold">Compare prices & hospitals for any surgery and treatment</p>
                         <p className="fs-5">
                         With Alex Health you can Compare prices & quality of hospitals, Get an estimated bill for all surgery and treatment, Know what’s covered in your insurance, Get final amount you pay
@@ -23,7 +23,7 @@ const Herosection = () => {
                         <CustomModal show={modalShow}
                             onHide={() => setModalShow(false)} />
                     </Col>
-                    <Col lg={6} sm={12} md={6} className="mb-1 center" md>
+                    <Col lg={6} sm={12} md={6} className="mb-1 center">
                         <Image
                             src="/herosection.jpeg"
                             width={750}
