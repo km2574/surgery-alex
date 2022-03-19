@@ -13,9 +13,6 @@ const CustomModal = (props) => {
     };
     return (
         <>
-            <Head>
-                <link rel="stylesheet" href="/css/react-phone-number-input/style.css" />
-            </Head>
             <Modal
                 {...props}
                 size="md"
