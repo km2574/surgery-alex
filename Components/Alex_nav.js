@@ -11,8 +11,8 @@ const nav = () => {
                             <Image
 
                                 src="/logo.png"
-                                width={180}
-                                height={50}
+                                width={65}
+                                height={65}
                                 layout="intrinsic"
                                 alt="Alex Health"
                             />

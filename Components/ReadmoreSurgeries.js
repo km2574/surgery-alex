@@ -11,7 +11,7 @@ const ReadMore = ({ children }) => {
 		<p className="">
 			{isReadMore ? ('') : card}
 			<Col lg={12} className="d-flex justify-content-around">
-			<Button onClick={toggleReadMore}  className="read-or-hide showmorebutton border-0 mt-5" size="lg">
+			<Button onClick={toggleReadMore}  className="read-or-hide showmorebutton border-0 " size="lg">
 				{isReadMore ? "Show More" : " Show Less"}{'  '} &nbsp;
 				<span className="fa fa-angle-down" style={{ fontSize: 25 }}> </span>
 			</Button>
@@ -58,7 +58,7 @@ const Content = () => {
 							</Card>
 
 						</Row>
-						<Row className="mt-5 d-flex justify-content-around">
+						<Row className="mt-5 d-flex justify-content-around mb-5">
 							<Card className="border-0 shadow-lg" style={{ width: '24rem' }}>
 								{/* <Card.Img variant="top" src="/eye.jpg" /> */}
 								<Card.Body>
