@@ -75,3 +75,8 @@ a {
 .image-blurred-edge{
     box-shadow: 0 0 8px 8px white inset !important;
 }
+
+
+.showmorebutton{
+  background-color: #28a4f4 !important;
+}

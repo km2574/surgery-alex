@@ -7,6 +7,8 @@ import Feature from '../Components/Feature'
 import Cta from '../Components/Cta'
 import IntroAlex from '../Components/IntroAlex'
 import Surgeries from '../Components/Surgeries'
+
+import ReadmoreSurgeries from '../Components/ReadmoreSurgeries'
 export default function Home() {
   return (
     <div>
@@ -17,9 +19,12 @@ export default function Home() {
       <Alex_nav/>
       <Herosection/>
       <Feature/>
-      <Cta/>
-      <IntroAlex/>
       <Surgeries/>
+
+      
+      <ReadmoreSurgeries/>
+      {/* <Cta/> */}
+      <IntroAlex/>
     </div>
   )
 }
